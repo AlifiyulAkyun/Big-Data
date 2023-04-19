@@ -38,7 +38,7 @@ Deep Dive Into Apache Spark
     <td><b style="font-size:30px">Output</b></td>
  </tr>
  <tr>
-    <td>https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/Accumulator/Accumulator.py </td>
+    <td>https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/Accumulator/Accumulator.py#L1-L4 </td>
     <td><img alt="Dark" src="https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/Accumulator/Accumulator.png"></td>
  </tr>
 </table>
