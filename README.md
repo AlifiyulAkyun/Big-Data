@@ -49,7 +49,7 @@ Deep Dive Into Apache Spark
     <td><b style="font-size:30px">Output</b></td>
  </tr>
  <tr>
-    <td>https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/BroadCast/BroadCast.py</td>
+    <td>https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/BroadCast/BroadCast.py#L1-L2</td>
     <td><img alt="Dark" src="https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/BroadCast/Broadcast.png"></td>
  </tr>
 </table>
@@ -60,7 +60,7 @@ Deep Dive Into Apache Spark
     <td><b style="font-size:30px">Output</b></td>
  </tr>
  <tr>
-    <td>https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/LogAnalytics/LogAnalytics.py</td>
+    <td>https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/LogAnalytics/LogAnalytics.py#L1-L27</td>
     <td><img alt="Dark" src="https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/LogAnalytics/LogAnalytics.png"></td>
  </tr>
 </table>
@@ -71,7 +71,7 @@ Deep Dive Into Apache Spark
     <td><b style="font-size:30px">Output</b></td>
  </tr>
  <tr>
-    <td>https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/PairRDD/PairRDD.py </td>
+    <td>https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/PairRDD/PairRDD.py#L1-L11</td>
     <td><img alt="Dark" src="https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/PairRDD/PairRDD.png"></td>
  </tr>
 </table>
@@ -82,7 +82,7 @@ Deep Dive Into Apache Spark
     <td><b style="font-size:30px">Output</b></td>
  </tr>
  <tr>
-    <td>https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/UnderstandingRDDs/UnderstandingRDDs.py </td>
+    <td>https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/UnderstandingRDDs/UnderstandingRDDs.py#L1-L40 </td>
     <td><img alt="Dark" src="https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/UnderstandingRDDs/UnderstandingRDDs.png"></td>
  </tr>
 </table>
@@ -93,7 +93,7 @@ Deep Dive Into Apache Spark
     <td><b style="font-size:30px">Output</b></td>
  </tr>
  <tr>
-    <td>https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/WordCount/WordCount.py</td>
+    <td>https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/WordCount/WordCount.py#L1-L8</td>
     <td><img alt="Dark" src="https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/WordCount/Word%20Count.png"></td>
  </tr>
 </table>
