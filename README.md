@@ -25,7 +25,7 @@ Deep Dive Into Apache Spark
     <td><b style="font-size:30px">Output</b></td>
  </tr>
  <tr>
-    <td>https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/SystemCommandsReturnCode/SystemCommandsReturnCode.scala </td>
+    <td>https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/SystemCommandsReturnCode/SystemCommandsReturnCode.scala#L1-L3 </td>
     <td><img alt="Dark" src="https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/SystemCommandsReturnCode/SystemCommandsReturnCode.png"></td>
  </tr>
 </table>
