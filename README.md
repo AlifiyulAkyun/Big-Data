@@ -7,11 +7,11 @@
 **1. System Commands Output**
 <table border="0">
  <tr>
-
+  <td><b style="font-size:30px">Code</b></td>
     <td><b style="font-size:30px">Output</b></td>
  </tr>
  <tr>
-  
+   <td>https://github.com/AlifiyulAkyun/Big-Data/blob/19d8e266b64bfc11feee8d6762996fc985728dda/SystemCommandsOutput/SystemCommandsOutput.scala#L1-L3 </td>
     <td><img alt="Dark" src="https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/SystemCommandsOutput/SystemCommandsOutput.png"></td>
  </tr>
 </table><br>
