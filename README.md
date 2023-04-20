@@ -7,7 +7,7 @@
 **1. System Commands Output**
 <table border="0">
  <tr>
-    <td><b style="font-size:30px">Code</b></td>
+
     <td><b style="font-size:30px">Output</b></td>
  </tr>
  <tr>
