@@ -97,7 +97,7 @@
 </table>
 
 ## Tugas Praktikum 2
-<b>1. Kode 1</b>
+<b>1.</b>
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Kode</b></td>
@@ -105,19 +105,19 @@
  </tr>
  <tr>
     <td>sc</td>
-    <td>sc berasal dari SparkContext yang sudah tersedia dalam PySpark. SparkContext sendiri umpama titik masuk (entry point) pada setiap fungsi Spark. Saat menjalankan aplikasi Spark, driver program akan berjalan yang mana memiliki fungsi main dan SparkContext diinisiasi disana.</td>
+    <td>sc berasal dari SparkContext yang sudah tersedia dalam PySpark. Ini adalah titik masuk utama untuk mengakses semua fitur dan fungsionalitas Spark. SparkContext menyediakan koneksi ke cluster Spark dan mengelola komputasi paralel dalam lingkungan tersebut.Dalam Spark, setiap aplikasi terdiri dari satu SparkContext yang memungkinkan komunikasi antara aplikasi dan cluster Spark. SparkContext bertanggung jawab untuk membagi tugas ke berbagai node di dalam cluster, memuat data dari sumber eksternal seperti Hadoop Distributed File System (HDFS), dan menyimpan hasil akhir di dalam HDFS atau sistem penyimpanan lainnya.</td>
  </tr>
  <tr>
     <td>accumulator</td>
-    <td>sc.accumulator digunakan untuk mendefinisikan accumulator variables. Jadi, accumulator adalah shared variable atau variabel bersama yang dapat digunakan untuk melalukan operasi penjumlahan atau akumulasi dan memiliki sifat komutatif dan asosiatif.</td>
+    <td>sc.accumulator adalah sebuah fungsi atau metode pada PySpark, sebuah framework untuk pemrosesan data yang berjalan di atas Apache Spark. Fungsi ini digunakan untuk mengakumulasi nilai secara bertahap pada RDD (Resilient Distributed Datasets) yang di proses pada Spark.Dalam PySpark, sc.accumulator dapat digunakan untuk mengumpulkan nilai atau menghitung jumlah pada setiap proses atau partisi dari RDD, sehingga nilai akhir yang dihasilkan akan merepresentasikan nilai keseluruhan dari RDD tersebut. </td>
  </tr>
  <tr>
     <td>parallelize</td>
-    <td>parallelize adalah fungsi yang digunakan untuk membuat RDD dari list collection. </td>
+    <td>paralellize adalah sebuah metode pada framework pemrosesan data Apache Spark yang digunakan untuk mengubah sebuah koleksi data menjadi RDD (Resilient Distributed Datasets) yang dapat diproses secara terdistribusi dan paralel di dalam cluster komputasi yang terdiri dari beberapa node. </td>
  </tr>
  <tr>
     <td>lambda</td>
-    <td>lambda adalah fungsi tanpa nama, dikenal juga sebagai Anonymous Functions. Biasanya digunakan sebagai bagian dari fungsi pemetaan, reduce, ssort, sorted, dan lain-lain. Biasanya juga digunakan sebagai argumen untuk fungsi tingkat tinggi yang mengambil fungsi sebagai argumen.</td>
+    <td>Lambda pada Spark digunakan untuk membuat sebuah fungsi anonim yang dapat digunakan dalam proses pemrosesan data yang dilakukan di dalam Apache Spark. Penggunaan fungsi Lambda pada Spark biasanya diintegrasikan dengan fungsi-fungsi lainnya seperti map(), filter(), dan reduce(). Sebagai contoh, kita dapat menggunakan fungsi Lambda untuk mengubah sebuah RDD dengan menerapkan sebuah operasi matematika pada setiap elemen RDD.</td>
  </tr>
  <tr>
     <td>value</td>
@@ -125,7 +125,7 @@
  </tr>
 </table>
 
-<b>2. Kode 2</b>
+<b>2.</b>
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Kode</b></td>
@@ -133,19 +133,19 @@
  </tr>
  <tr>
     <td>broadcast</td>
-    <td>broadcast adalah variabel bersama atau shared variables yang bersifat read only dan tersedia di semua node dalam cluster agar dapat diakses oleh task. </td>
+    <td>Broadcast pada Spark digunakan untuk menyebarkan variabel atau objek secara efisien ke setiap node pada cluster komputasi yang menjalankan proses Spark. Broadcast dapat digunakan untuk mengirim data yang dibutuhkan oleh setiap task pada setiap node di cluster, sehingga tidak perlu mengirim data berulang-ulang pada setiap task yang dijalankan. </td>
  </tr>
  <tr>
     <td>list</td>
-    <td>list adalah struktur data yang menyimpan kumpulan item yang dapat berupa bilangan interger, flloat, string atau boolean.</td>
+    <td>List pada Spark dapat digunakan untuk merepresentasikan sekumpulan data yang terdiri dari beberapa elemen, yang nantinya dapat diolah dan diproses dalam bentuk RDD (Resilient Distributed Datasets) atau DataFrame pada Spark.</td>
  </tr>
  <tr>
     <td>range</td>
-    <td>membuat RDD baru bilangan integer dari start ke end, yang menambah (increase) pada setiap dari elemen.</td>
+    <td>Range pada Spark digunakan untuk membuat RDD (Resilient Distributed Datasets) yang berisi urutan bilangan bulat secara teratur dengan jarak tertentu. Range seringkali digunakan untuk menghasilkan data dummy atau data testing dalam proses pemrosesan data pada Spark.</td>
  </tr>
 </table>
 
-<b>3. Kode 3</b>
+<b>3.</b>
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Kode</b></td>
@@ -153,23 +153,23 @@
  </tr>
  <tr>
     <td>textFile</td>
-    <td>Membaca teks dari HDFS, file lokal sistem, atau semua file sistem URI yang didukung oleh Hadoop dan mengembalikannya dalam bentuk RDD Strings.</td>
+    <td>TextFile pada Spark digunakan untuk membaca file teks dari sistem file lokal atau sistem file yang didukung Hadoop, dan mengembalikan RDD (Resilient Distributed Datasets) berisi baris-baris teks dari file tersebut. TextFile juga dapat digunakan untuk menulis RDD ke dalam file teks.</td>
  </tr>
  <tr>
     <td>filter</td>
-    <td>Bagian atau subset dari baris atau kolom dari dataframe yang sesuai dengan label dalam indeks yang telah ditentukan. filter digunakan untuk memfilter baris dari RDD.</td>
+    <td>Filter pada Spark digunakan untuk memilih elemen dari RDD (Resilient Distributed Datasets) atau DataFrame yang memenuhi suatu kondisi atau predikat tertentu. Filter dapat digunakan untuk memfilter data berdasarkan kriteria tertentu, seperti data dengan nilai tertentu, data yang memenuhi kondisi tertentu, dan lain-lain.</td>
  </tr>
  <tr>
     <td>cache</td>
-    <td>cache digunakan untuk menghasilkan dan meng-cache DataFrame saat ini. Hasil caching dapat meningkatkan kinerja future tranformation yang menggunakan hasil dari previous transormation.  </td>
+    <td>Cache pada Spark digunakan untuk menyimpan RDD (Resilient Distributed Datasets) atau DataFrame pada memori, sehingga data dapat diakses secara cepat tanpa perlu membaca ulang data dari sistem file. Cache pada Spark dapat meningkatkan performa pemrosesan data pada Spark, terutama untuk data yang sering digunakan dalam berbagai operasi pemrosesan data.</td>
  </tr>
  <tr>
     <td>count</td>
-    <td>Mengembalikan jumlah nilai sesuai kegunaannya (apa yang kan di count). </td>
+    <td>Count pada Spark digunakan untuk menghitung jumlah elemen dalam RDD (Resilient Distributed Datasets) atau DataFrame. Count pada Spark mengembalikan nilai bilangan bulat yang merupakan jumlah elemen dalam RDD atau DataFrame.</td>
  </tr>
 </table>
 
-<b>4. Kode 4</b>
+<b>4.</b>
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Kode</b></td>
@@ -177,27 +177,27 @@
  </tr>
  <tr>
     <td>map</td>
-    <td>Mengembalikan RDD baru dengan menerapkan fungsi pada setiap elemen RDD.</td>
+    <td>Map pada Spark digunakan untuk melakukan transformasi pada setiap elemen RDD (Resilient Distributed Datasets) atau DataFrame dengan menggunakan suatu fungsi tertentu. Map pada Spark menghasilkan RDD atau DataFrame baru yang memiliki ukuran yang sama dengan RDD atau DataFrame awal, namun dengan nilai yang telah diubah sesuai dengan fungsi yang diberikan.</td>
  </tr>
  <tr>
     <td>collect</td>
-    <td>Mengembalikan list semua elemen pada RDD</td>
+    <td>Collect pada Spark digunakan untuk mengambil semua elemen RDD (Resilient Distributed Datasets) atau DataFrame ke dalam memori driver program dan mengembalikan nilai tersebut sebagai suatu koleksi data pada Python. Collect pada Spark dapat digunakan untuk mengambil hasil akhir dari transformasi RDD atau DataFrame, atau untuk mengecek nilai-nilai yang terdapat dalam RDD atau DataFrame.</td>
  </tr>
  <tr>
     <td>len</td>
-    <td>Mendapat jumlah nilai dari DataFrame</td>
+    <td>Len pada Spark tidak digunakan secara khusus pada Spark. Len pada Python digunakan untuk mengembalikan panjang suatu objek, seperti panjang sebuah string, list, atau tuple.</td>
  </tr>
  <tr>
     <td>keys</td>
-    <td>Mengambalikan RDD dengan key dari setiap tupel. Misal nama:ony, maka key-nya adalah nama</td>
+    <td>Keys pada Spark digunakan untuk mengambil kunci (key) dari setiap elemen dalam sebuah RDD (Resilient Distributed Datasets) atau pair RDD. Keys pada Spark menghasilkan RDD baru yang hanya berisi kunci dari setiap elemen dalam RDD atau pair RDD</td>
  </tr>
  <tr>
     <td>values</td>
-    <td>Mengambalikan RDD dengan value dari setiap tupel. Misal nama:ony, maka value-nya adalah ony</td>
+    <td>Mengambalikan RDD dengan value dari setiap tupel.</td>
  </tr>
 </table>
 
-<b>5. Kode 5</b>
+<b>5.</b>
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Kode</b></td>
@@ -229,7 +229,7 @@
  </tr>
 </table>
 
-<b>6. Kode 6</b>
+<b>6.</b>
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Kode</b></td>
