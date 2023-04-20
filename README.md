@@ -205,27 +205,27 @@
  </tr>
  <tr>
     <td>defaultParallelism</td>
-    <td>Level default dari parallelism untuk digunakan saat tidak diberikan oleh pengguna</td>
+    <td>Default Parallelism pada Spark adalah jumlah partisi (partitions) yang akan digunakan secara default untuk memproses RDD (Resilient Distributed Datasets) atau DataFrame. Default Parallelism pada Spark adalah salah satu parameter konfigurasi yang sangat penting karena akan mempengaruhi performa dan distribusi data pada cluster.</td>
  </tr>
  <tr>
     <td>getNumPartitions</td>
-    <td>Mengembalikan nilai dari partisi di RDD</td>
+    <td>getNumPartitions() pada Spark digunakan untuk mengambil jumlah partisi (partitions) pada sebuah RDD (Resilient Distributed Datasets) atau DataFrame. Fungsi ini mengembalikan bilangan bulat yang menunjukkan jumlah partisi pada RDD atau DataFrame.</td>
  </tr>
  <tr>
     <td>mapPartitionsWithIndex</td>
-    <td>Mengambalikan RDD baru dengan mengaplikasikan fungsi untuk setiap pastisi di RDD, ketika melakukan tracking index dari partisi original.</td>
+    <td>mapPartitionsWithIndex() pada Spark digunakan untuk memetakan (mapping) setiap partisi (partition) dari RDD (Resilient Distributed Datasets) menjadi RDD baru dengan mempertahankan index partisi dari RDD asli.</td>
  </tr>
  <tr>
     <td>repartition</td>
-    <td>Mengembalikan RDD baru yang memiliki partisi persis numPartition.</td>
+    <td>repartition() pada Spark digunakan untuk mengubah jumlah partisi (partitions) pada RDD (Resilient Distributed Datasets) atau DataFrame. Fungsi ini mengembalikan RDD atau DataFrame baru dengan jumlah partisi yang telah diubah sesuai dengan argumen yang diberikan.</td>
  </tr>
  <tr>
     <td>coalesce</td>
-    <td>Mengembalikan RDD baru yang dikurangi atau direduksi menjadi numPartitions</td>
+    <td>coalesce() pada Spark digunakan untuk mengurangi jumlah partisi pada RDD (Resilient Distributed Datasets) atau DataFrame menjadi jumlah yang lebih kecil. Fungsi ini mengembalikan RDD atau DataFrame baru dengan jumlah partisi yang telah diurangi sesuai dengan argumen yang diberikan.</td>
  </tr>
  <tr>
     <td>toDebugString</td>
-    <td>Deskripsi dari RDD dan dependensi rekursifnya untuk proses debugging.</td>
+    <td>toDebugString() pada Spark digunakan untuk menampilkan informasi terperinci tentang partisi RDD (Resilient Distributed Datasets) atau DataFrame, termasuk informasi partisi seperti ID partisi, lokasi node, dan data yang disimpan di masing-masing partisi.</td>
  </tr>
 </table>
 
@@ -237,14 +237,14 @@
  </tr>
  <tr>
     <td>flatMap</td>
-    <td>Mengembalikan RDD baru dengan terlebih dahulu menerapkan fungsi ke semua elem RDD, lalu diratakan hasilnya. </td>
+    <td>flatMap() pada Spark digunakan untuk mengubah setiap elemen pada RDD (Resilient Distributed Datasets) atau DataFrame menjadi nol atau lebih elemen baru dan kemudian mengembalikan elemen-elemen baru tersebut sebagai RDD baru. Fungsi ini sangat berguna untuk memproses data yang kompleks dalam beberapa langkah. </td>
  </tr>
  <tr>
     <td>reduceByKey</td>
-    <td>Menggabungkan nilai untuk setiap kunci menggunakan fungsi pengurangan asosiatif dan komutatif.</td>
+    <td>reduceByKey() pada Spark digunakan untuk menggabungkan nilai yang sama berdasarkan kunci tertentu pada RDD (Resilient Distributed Datasets) atau DataFrame, sehingga menghasilkan RDD baru dengan pasangan kunci-nilai unik.</td>
  </tr>
  <tr>
     <td>split</td>
-    <td>Memisahkan string sesuai separator (pemisah) yang didefinisikan.</td>
+    <td>Fungsi split() pada Spark digunakan untuk memecah string menjadi bagian-bagian kecil (tokens) berdasarkan pemisah tertentu. Setiap token kemudian dianggap sebagai elemen baru dalam RDD (Resilient Distributed Datasets) atau DataFrame.</td>
  </tr>
 </table>
