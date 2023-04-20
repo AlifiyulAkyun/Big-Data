@@ -1,6 +1,6 @@
 # Big-Data
 ## Chapter 3
-Tugas - Tugas Mata Kuliah Big Data
+
 
 ### Scala
 
@@ -11,7 +11,7 @@ Tugas - Tugas Mata Kuliah Big Data
     <td><b style="font-size:30px">Output</b></td>
  </tr>
  <tr>
-    <td>https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/SystemCommandsOutput/SystemCommandsOutput.scala#L1-L3 </td>
+  
     <td><img alt="Dark" src="https://github.com/AlifiyulAkyun/Big-Data/blob/e507a8b16e4ddbd20239ec77a4bd7c1642cfe81b/SystemCommandsOutput/SystemCommandsOutput.png"></td>
  </tr>
 </table><br>
